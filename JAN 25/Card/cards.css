@@ -1,0 +1,15 @@
+li{
+    border: 1px solid black;
+    padding: 20px;
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+    width: 500px;
+    display: inline;
+}
+
+#box-card{
+    border: 1px solid red;
+}
