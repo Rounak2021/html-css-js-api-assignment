@@ -1,4 +1,4 @@
-  var newURL = "http://universities.hipolabs.com/search?country=india";
+  var newURL = "https://api2.binance.com/api/v3/ticker/24hr";
   var table = document.getElementById("table");
 
   
@@ -14,10 +14,9 @@
            td1 = document.createElement("td");
            td2 = document.createElement("td");
           
-          tr.innerText = data[i].name;
-          td1.innerText = data[i].domains;
-          td2.innerText = data[i].country;
-          
+          tr.innerText = data[i].symbol;
+          td1.innerText = data[i].openPrice;
+          td2.innerText = data[i].lastPrice;
         
           
           
