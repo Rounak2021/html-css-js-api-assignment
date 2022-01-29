@@ -1,0 +1,15 @@
+table{
+    border: 1px solid black;
+}
+
+tr{
+    background-color: rgb(225, 211, 238);
+}
+
+td {
+    /* border: 2px solid black; */
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  
